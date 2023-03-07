@@ -5,3 +5,6 @@
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
     <img src="https://www.samurai-digital.com/app/uploads/2022/06/Cover_Flutter_1.png" alt="shopping logo" width="300px" >
 </div>
+
+## 💡Projects
+ - ### Movie App 🎥
