@@ -1,4 +1,4 @@
-#  🔗 React-Projects.2023 
+#  🔗 Flutter-Projects.2023 
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/114832629/223334012-d2fd1195-05fc-4cf1-87bb-3b19561b9cf8.png" alt="react logo" width="150px"> 
