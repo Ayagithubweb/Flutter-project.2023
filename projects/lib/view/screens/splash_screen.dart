@@ -36,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
           color: Constants.primaryColor.withOpacity(0.8),
         ),
         Center(
-          child: FadeInUp(
+          child: ZoomIn(
             duration: const Duration(milliseconds: 1000),
             child: Image.asset(
               Constants.logoImg,

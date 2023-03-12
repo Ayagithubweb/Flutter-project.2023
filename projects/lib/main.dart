@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:projects/services/dio_helper.dart';
 import 'package:projects/utilities/routes/router.dart';
 import 'package:projects/utilities/theme.dart';
+// import 'package:projects/view/screens/details_design.dart';
+// import 'package:projects/view/screens/navbar_screen.dart';
 import 'package:projects/view/screens/splash_screen.dart';
 
 void main() {
+  DioHelper.init();
   runApp(const MyApp());
 }
 

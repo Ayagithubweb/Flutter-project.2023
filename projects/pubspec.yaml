@@ -25,6 +25,7 @@ dependencies:
   animate_do: ^3.0.2
   youtube_player_flutter: ^8.1.2
   shared_preferences: ^2.0.18
+  page_view_dot_indicator: ^2.1.0
 
 dev_dependencies:
   flutter_test:

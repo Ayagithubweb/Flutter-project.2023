@@ -38,21 +38,21 @@ abstract class TextStyling {
       fontWeight: FontWeight.w400);
   static TextStyle paraCommentStyle() => GoogleFonts.openSans(
       decoration: TextDecoration.none,
-      fontSize: 11,
+      fontSize: 13,
       color: Constants.textColor,
       fontWeight: FontWeight.w400);
   static TextStyle details1Style() => GoogleFonts.openSans(
-  decoration: TextDecoration.none,
+      decoration: TextDecoration.none,
       fontSize: 13,
       color: Constants.textLightColor,
       fontWeight: FontWeight.w400);
   static TextStyle details2Style() => GoogleFonts.openSans(
-  decoration: TextDecoration.none,
+      decoration: TextDecoration.none,
       fontSize: 13,
       color: Constants.textDarkColor,
       fontWeight: FontWeight.w400);
   static TextStyle btnTextStyle() => GoogleFonts.openSans(
-    decoration: TextDecoration.none,
+      decoration: TextDecoration.none,
       fontSize: 14,
       color: Constants.whiteColor,
       fontWeight: FontWeight.w600);

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
-abstract class Constants{
+abstract class Constants {
   static const double containerRoundCorner = 30;
+  static const double padding = 15;
+
   //!~> AppAssets: =====================================<
   static const String logoImg = "assets/MOVIE LOGO4 1.png";
   static const String splashImg = "assets/splash_image.jpg";
@@ -15,7 +17,7 @@ abstract class Constants{
   static const Color primaryLightLightColor = Color(0xFF1C1A29);
   static const Color fourthColor = Color(0xFF38354B);
   static const Color secondColor = Color(0xFFE82626);
-  static const Color whiteColor = Color(0xFFffffff); 
+  static const Color whiteColor = Color(0xFFffffff);
   static const Color textLightColor = Color(0xFFDEDDDF);
   static const Color textDarkColor = Color(0xFF777777);
   static const Color textColor = Color(0xFFA4A3A9);
@@ -24,26 +26,25 @@ abstract class Constants{
   static const String appBartitleString = 'movie';
   //!~> AppCarouselOptions: =====================================<
   static CarouselOptions options = CarouselOptions(
-  disableCenter: true,
-  aspectRatio: 8 / 5,
-  viewportFraction: 0.8,
-  initialPage: 0,
-  enableInfiniteScroll: true,
-  reverse: false,
-  autoPlay: true,
-  autoPlayInterval: const Duration(seconds: 3),
-  autoPlayAnimationDuration: const Duration(milliseconds: 800),
-  autoPlayCurve: Curves.fastOutSlowIn,
-  enlargeCenterPage: true,
-  enlargeFactor: 0.3,
-  scrollDirection: Axis.horizontal,
-);
-  static List carouselList =[
-    Image.asset(slide1Img),
-    Image.asset(slide2Img),
-    Image.asset(slide1Img),
-    Image.asset(slide2Img),
+    disableCenter: true,
+    aspectRatio: 8 / 5,
+    viewportFraction: 0.8,
+    initialPage: 0,
+    enableInfiniteScroll: true,
+    reverse: false,
+    autoPlay: true,
+    autoPlayInterval: const Duration(seconds: 3),
+    autoPlayAnimationDuration: const Duration(milliseconds: 800),
+    autoPlayCurve: Curves.fastOutSlowIn,
+    enlargeCenterPage: true,
+    enlargeFactor: 0.3,
+    scrollDirection: Axis.horizontal,
+  );
+  static List<String> carouselList = [
+    slide1Img,
+    slide2Img,
+    slide1Img,
+    slide2Img,
   ];
   //!~> ...: =====================================<
 }
-

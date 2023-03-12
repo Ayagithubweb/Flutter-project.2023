@@ -12,7 +12,7 @@ class DioHelper {
   }
 
   static Future<Response> getData(
-      {required String url, required Map<String, dynamic> query}) async {
-    return await dio!.get(url, queryParameters: query);
+      {required String path, required Map<String, dynamic> query}) async {
+    return await dio!.get(path, queryParameters: query);
   }
 }
