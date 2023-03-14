@@ -10,4 +10,6 @@
       - Constants:~> AppAssets, AppColors, AppStrings, AppCarouselOptions
       - Style:~> AppTextStyling + StandardTextStyling 
       - Theme:~> AppTheme
+    - Add Controllers:~> cubit + states + 
+
 
