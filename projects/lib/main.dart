@@ -3,6 +3,7 @@ import 'package:projects/services/cache_helper.dart';
 import 'package:projects/services/dio_helper.dart';
 import 'package:projects/utilities/routes/router.dart';
 import 'package:projects/utilities/routes/routes.dart';
+import 'package:projects/utilities/theme.dart';
 
 void main() {
   // ToDo:~> to init helperFun before runApp ...
@@ -21,9 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Movie App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme:theme,
       onGenerateRoute: onGenerateRoute,
       initialRoute: Routes.homePageRoute,
     );

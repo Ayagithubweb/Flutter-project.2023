@@ -9,4 +9,5 @@
       - Routes:~> Routes, Router
       - Constants:~> AppAssets, AppColors, AppStrings, AppCarouselOptions
       - Style:~> AppTextStyling + StandardTextStyling 
+      - Theme:~> AppTheme
 
