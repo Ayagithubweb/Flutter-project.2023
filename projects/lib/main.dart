@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:projects/services/cache_helper.dart';
+import 'package:projects/services/dio_helper.dart';
 import 'package:projects/view/pages/home_page.dart';
 
 void main() {
+  DioHelper.init();
+  CacheHelper.init();
   runApp(const MyApp());
 }
 
