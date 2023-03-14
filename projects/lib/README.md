@@ -7,4 +7,5 @@
     - Add Services:~>  DioHelper, CacheHelper
     - Add Utilities:~> 
       - Routes:~> Routes, Router
+      - Constants:~> AppAssets, AppColors, AppStrings, AppCarouselOptions
 
