@@ -44,6 +44,8 @@ dependencies:
   flutter_bloc: ^8.1.2
   animate_do: ^3.0.2
   conditional_builder_null_safety: ^0.0.6
+  page_view_dot_indicator: ^2.1.0
+  page_view_indicators: ^2.0.0
 
 dev_dependencies:
   flutter_test:

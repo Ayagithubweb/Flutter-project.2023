@@ -12,3 +12,6 @@
       - Theme:~> AppTheme
     - Add Controllers:~> cubit + states + bloc_observer
     - Add assets + Add Splash Screen + Add Navbar Screen
+    - Add HomePage:~>
+      - Add Widgets:~> cardMovie + categoryTitle + listviewCarosel + listviewCaroselWithIndicator
+      - Add:~> Carosel + most-populerWiyhLogic + coming-soon

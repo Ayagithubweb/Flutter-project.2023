@@ -10,7 +10,9 @@ class NavbarScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<AppCubit>(
-      create: (context) => AppCubit(),
+      create: (context) => AppCubit()
+        ..getPopularMovies()
+        ..initPage(),
       child: BlocConsumer<AppCubit, AppStates>(
         listener: (context, state) {},
         builder: (context, state) {

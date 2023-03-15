@@ -1,11 +1,9 @@
-// ignore: file_names
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:projects/utilities/constants.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 
-class ListViewCarosel extends StatelessWidget {
-  // List<Map<dynamic, dynamic>> items;
-  const ListViewCarosel({super.key});
+class ListViewCaroselWithIndicator extends StatelessWidget {
+  const ListViewCaroselWithIndicator({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +19,5 @@ class ListViewCarosel extends StatelessWidget {
             .toList(),
       ),
     );
-    //=> Image.network(items[index]['poster_path']));
   }
 }
