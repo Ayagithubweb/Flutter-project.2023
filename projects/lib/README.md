@@ -4,12 +4,11 @@
   - Movie App 🎥...
 - ## 🐾 Steps
   - Add structure (MVC) + Add readme of project
-    - Add Services:~>  DioHelper, CacheHelper
-    - Add Utilities:~> 
+    - Add Services:~> DioHelper, CacheHelper
+    - Add Utilities:~>
       - Routes:~> Routes, Router
       - Constants:~> AppAssets, AppColors, AppStrings, AppCarouselOptions
-      - Style:~> AppTextStyling + StandardTextStyling 
+      - Style:~> AppTextStyling + StandardTextStyling
       - Theme:~> AppTheme
-    - Add Controllers:~> cubit + states + 
-
-
+    - Add Controllers:~> cubit + states + bloc_observer
+    - Add assets + Add Splash Screen + Add Navbar Screen
